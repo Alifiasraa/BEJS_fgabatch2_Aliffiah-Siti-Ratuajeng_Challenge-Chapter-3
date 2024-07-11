@@ -1,13 +1,13 @@
 -- DDL
 create table tb_alamat (
- id_alamat serial primary key,
- jalan varchar(100) not null,
- kelurahan varchar(50) not null,
- kecamatan varchar(50) not null,
- kota varchar(50) not null,
- provinsi varchar(50) not null,
- negara varchar(50) not null,
- kode_pos varchar(15) not null
+	id_alamat serial primary key,
+	jalan varchar(100) not null,
+	kelurahan varchar(50) not null,
+	kecamatan varchar(50) not null,
+	kota varchar(50) not null,
+	provinsi varchar(50) not null,
+	negara varchar(50) not null,
+	kode_pos varchar(15) not null
 )
 
 create table tb_nasabah (
